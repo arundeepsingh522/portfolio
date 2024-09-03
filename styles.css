@@ -1,0 +1,238 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #004080;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('your-photo.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    background-color: #003366;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.hero a {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+
+.hero a:hover {
+    background-color: #00509e;
+}
+
+/* About Me Section */
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #e6f2ff;
+    color: #003366;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Resume Section */
+.resume {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    background-color: #e6f2ff;
+    color: #003366;
+}
+
+.resume h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.resume .resume-item {
+    margin-bottom: 40px;
+}
+
+.resume .resume-item h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item p {
+    font-size: 1.1em;
+    line-height: 1.4;
+}
+
+.resume .resume-item ul {
+    list-style: disc;
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+.resume .resume-item ul li {
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #003366;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.contact textarea {
+    height: 150px;
+}
+
+.contact input[type="submit"] {
+    background-color: #004080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #00509e;
+}
+
+.contact{
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
